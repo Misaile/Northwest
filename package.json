@@ -1,0 +1,28 @@
+{
+  "name": "amethyst",
+  "version": "1.0.0",
+  "author": "Molecule <mol@synaiv.com>",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "wp:start": "wp-env start",
+    "wp:stop": "wp-env stop",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "@pinia/nuxt": "^0.5.1",
+    "nuxt": "^3.11.1",
+    "pinia": "^2.1.7",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@wordpress/env": "^9.6.0",
+    "vite-plugin-vuetify": "^2.0.3",
+    "vue-i18n": "^9.10.2",
+    "vuetify": "^3.5.12"
+  }
+}

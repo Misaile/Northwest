@@ -1,0 +1,8 @@
+{
+  "mappings": {
+    "wp-content/themes/Amethyst": "./wp-theme"
+  },
+  "config": {
+    "WP_DEBUG_DISPLAY": true
+  }
+}
